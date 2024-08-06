@@ -1,16 +1,21 @@
 {
-    "name": "bot-backend",
+    "name": "telegram-bot-backend",
     "version": "1.0.0",
-    "main": "bot.py",
-    "engines": {
-      "node": "20.x"
-    },
+    "description": "Backend for Telegram bot using Vercel",
+    "main": "index.js",
     "scripts": {
       "start": "node index.js"
     },
     "dependencies": {
       "express": "^4.17.1",
-      "some-other-dependency": "^1.0.0"
-    }
+      "dotenv": "^16.0.0",
+      "node-fetch": "^2.6.1",
+      "telegram-bot-api": "^0.59.0"
+    },
+    "engines": {
+      "node": "20.x"
+    },
+    "author": "",
+    "license": "MIT"
   }
   

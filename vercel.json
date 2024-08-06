@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/index.js"
+      }
+    ],
+    "env": {
+      "TELEGRAM_BOT_TOKEN": "7432968296:AAEkaEPZ7Rlu0LHfIHc_hFnC12UIiaI2CSI"
+    }
+  }
+  
